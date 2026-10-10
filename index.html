@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
+  <title>Luis Ybarra Aspichueta</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+
+  <!-- Enlaces para importar la fuente desde Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-color: #191e26;
+      font-family: "Poppins", sans-serif;
+      min-height: 100vh;
+    }
+
+    .bar {
+      height: 50px;
+      background: #323b4c;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 15px;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      font-weight: medium;
+    }
+
+    .bar a {
+      color: #323b4c;
+      background: white;
+      padding: 6px 12px;
+      text-decoration: none;
+      border-radius: 4px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+
+    .cv-container {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 0 10px 20px 10px;
+    }
+
+    .cv-container img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 4px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="bar">
+    <span>Curriculum Vitae</span>
+    <a href="cv.pdf" download>Descargar PDF</a>
+  </div>
+
+  <div class="cv-container">
+    <img src="cv.svg" alt="CV Luis Ybarra Aspichueta">
+  </div>
+
+</body>
+</html>
